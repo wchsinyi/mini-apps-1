@@ -1,12 +1,14 @@
-var myButton = document.getElementsByClassName('checker')[0];
-myButton.addEventListener('click', (e)=>{newBoard.flip(e)}, false);
+var game = document.getElementsByClassName('checker')[0];
+game.addEventListener('click', (e)=>{newBoard.flip(e)}, false);
+
+var reset = document.getElementsByClassName('reset')[0];
+reset.addEventListener('click', (e)=>{newBoard.refresh(e)}, false);
 
 
 var Board = function(){
     this.arr = new Array(9).fill(0);
     this.playerOne = true;
     this.n = 3;
-    
 }
 
 Board.prototype.flip = function(e){    
@@ -21,7 +23,6 @@ Board.prototype.flip = function(e){
     }
     this.playerOne = !this.playerOne;
     this.checkWin(this.arr,3);
-    // console.log(this.checkSum(this.arr,3));
 }
 
 Board.prototype.checkWin = function(){
