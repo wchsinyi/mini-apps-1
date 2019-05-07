@@ -1,6 +1,9 @@
 var game = document.getElementsByClassName('checker')[0];
 game.addEventListener('click', (e)=>{closureFlip(e)}, false);
 
+var reset = document.getElementsByClassName('reset')[0];
+reset.addEventListener('click', (e)=>{var closureFlip = flip();}, false);
+
 
 
 var flip = function(){
@@ -51,6 +54,7 @@ var flip = function(){
 }
 
 var closureFlip = flip();
+
 
 
 var checkSum = function(a, n){

@@ -11,15 +11,16 @@ var Board = function(){
     this.n = 3;
 }
 
+
 Board.prototype.flip = function(e){    
     var cellName = Number(e.target.id);
     if (this.arr[cellName-1]>0){return;}
     if (this.playerOne){
         this.arr[cellName-1] = 1;
-        e.target.innerHTML = 'o'
+        e.target.innerHTML = 'o';
     } else {
         this.arr[cellName-1] = 10;
-        e.target.innerHTML = 'x'
+        e.target.innerHTML = 'x';
     }
     this.playerOne = !this.playerOne;
     this.checkWin(this.arr,3);
@@ -29,15 +30,15 @@ Board.prototype.checkWin = function(){
     console.log(this.checkSum(this.arr,3));
     switch (this.checkSum(this.arr, this.n)) {
         case 1 :
-        alert('Player One Wins')
-        this.refresh();
-        break;
+            alert('Player One Wins')
+            this.refresh();
+            break;
         case 2 :
-        alert('Player Two Wins')
-        this.refresh();
-        break;
+            alert('Player Two Wins')
+            this.refresh();
+            break;
         case 3 :
-        break;
+            break;
     }
 }
 
@@ -74,7 +75,8 @@ Board.prototype.refresh = function(){
     }
 }
 
-
-
-
 var newBoard = new Board();
+
+
+
+
