@@ -1,9 +1,9 @@
-// import Form1 from './Form1.js';
+import Form from './Form.js';
 
 ReactDOM.render(
   <div>
-    {/* <Form1/> */}
-    <h1>Hello, world!</h1>
+    <h1>Welcome to check out portal</h1>
+    <Form/>
   </div>,
   document.getElementById('rootForm')
-  );
+);

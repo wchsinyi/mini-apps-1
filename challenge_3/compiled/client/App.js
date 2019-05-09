@@ -1,4 +1,4 @@
-// import Form1 from './Form1.js';
+import Form from './Form.js';
 
 ReactDOM.render(React.createElement(
   'div',
@@ -6,7 +6,8 @@ ReactDOM.render(React.createElement(
   React.createElement(
     'h1',
     null,
-    'Hello, world!'
-  )
+    'Welcome to check out portal'
+  ),
+  React.createElement(Form, null)
 ), document.getElementById('rootForm'));
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9BcHAuanN4Il0sIm5hbWVzIjpbIlJlYWN0RE9NIiwicmVuZGVyIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCJdLCJtYXBwaW5ncyI6IkFBQUE7O0FBRUFBLFNBQVNDLE1BQVQsQ0FDRTtBQUFBO0FBQUE7QUFFRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBRkYsQ0FERixFQUtFQyxTQUFTQyxjQUFULENBQXdCLFVBQXhCLENBTEYiLCJmaWxlIjoiQXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gaW1wb3J0IEZvcm0xIGZyb20gJy4vRm9ybTEuanMnO1xuXG5SZWFjdERPTS5yZW5kZXIoXG4gIDxkaXY+XG4gICAgey8qIDxGb3JtMS8+ICovfVxuICAgIDxoMT5IZWxsbywgd29ybGQhPC9oMT5cbiAgPC9kaXY+LFxuICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdEZvcm0nKVxuICApO1xuIl19
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9hcHAuanN4Il0sIm5hbWVzIjpbIkZvcm0iLCJSZWFjdERPTSIsInJlbmRlciIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiXSwibWFwcGluZ3MiOiJBQUFBLE9BQU9BLElBQVAsTUFBaUIsV0FBakI7O0FBRUFDLFNBQVNDLE1BQVQsQ0FDRTtBQUFBO0FBQUE7QUFDRTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBREY7QUFFRSxzQkFBQyxJQUFEO0FBRkYsQ0FERixFQUtFQyxTQUFTQyxjQUFULENBQXdCLFVBQXhCLENBTEYiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEZvcm0gZnJvbSAnLi9Gb3JtLmpzJztcblxuUmVhY3RET00ucmVuZGVyKFxuICA8ZGl2PlxuICAgIDxoMT5XZWxjb21lIHRvIGNoZWNrIG91dCBwb3J0YWw8L2gxPlxuICAgIDxGb3JtLz5cbiAgPC9kaXY+LFxuICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9vdEZvcm0nKVxuKTtcbiJdfQ==
