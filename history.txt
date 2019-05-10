@@ -1,0 +1,173 @@
+    1  rm .bash_history 
+    2  vi .bash_history 
+    3  exit
+    4  uptime
+    5  open Desktop/Final\ Setup/sublime.app/
+    6  less Desktop/Final\ Setup/final_cleanup.sh 
+    7  clear
+    8  ls
+    9  babel
+   10  which babel
+   11  /usr/bin/env babel
+   12  nvm list
+   13  nvm install 6.11.3
+   14  nvm alias default 6.11.3
+   15  exit
+   16  ifconfig
+   17  nvm list
+   18  node --version
+   19  npm install -g babel-cli babel-preset-es2015 grunt-cli gulp bower mocha jasmine-node yo live-server nodemon jshint eslint
+   20  npm --version
+   21  npm installed
+   22  npm list
+   23  npm list -g
+   24  which babel
+   25  ls
+   26  cd .nvm/
+   27  ls
+   28  cd versions/
+   29  ls
+   30  cd node/
+   31  ls
+   32  cd 6.11
+   33  cd v6.11.3/
+   34  ls
+   35  cd lib/
+   36  ls
+   37  cd node_modules/
+   38  ls
+   39  pwd
+   40  cd Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+   41  ls
+   42  vi Preferences.sublime-settings 
+   43  pwd
+   44  su itadmin
+   45  node
+   46  node
+   47  [A
+   48  node
+   49  git clone https://github.com/hackreactor/hrsf117-mini-apps-1.git
+   50  live-server 
+   51  live-server 
+   52  cd 
+   53  cd hrsf117-movie-list/
+   54  l
+   55  live-server 
+   56  live-server 
+   57  live-server 
+   58  live-server 
+   59  live-server 
+   60  live-server 
+   61  live-server 
+   62  git add .
+   63  git commit -m "Draft fetch" 
+   64  git commit --no-verify -m "Draft fetch" 
+   65  git push 
+   66  git log 
+   67  git reset --hard 075bc6e29a899ded02dfaf13a98ba42df7acd4e6
+   68  cd hrsf117-mini-apps-1/
+   69  git remote -v
+   70  git clone https://github.com/wchsinyi/hrsf117-mini-apps-1.git 
+   71  ls
+   72  ls
+   73  cd 
+   74  ls
+   75  cd 
+   76  ls
+   77  git clone https://github.com/wchsinyi/hrsf117-mini-apps-1.git 
+   78  cd hrsf117-mini-apps-1/challenge_4/
+   79  npm init 
+   80  npm install webpack --save-dev --save
+   81  npm install
+   82  nvm install node
+   83  npm install webpack --save-dev
+   84  npm install webpack-cli --save-dev
+   85  npm install babel-loader @babel/core @babel/preset-env @babel/preset-react --save-dev
+   86  webpack.config
+   87  init webpack.config
+   88  npm init webpack.config
+   89  npm init
+   90  vim webpack.config
+   91  vim webpack.config.js
+   92  cd 
+   93  git clone https://github.com/wchsinyi/hrsf117-movie-list
+   94  cd hrsf117-movie-list/
+   95  npm install
+   96  npm build
+   97  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline
+   98  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline
+   99  npm install node
+  100  nvm install node 
+  101  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline
+  102  ls
+  103  vim package.json 
+  104  npm install 
+  105  npm build
+  106  babel
+  107  npm install -g babel-cli
+  108  ls
+  109  live-server
+  110  npm install -g live-server --save
+  111  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  112  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  113  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  114  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  115  npm build
+  116  npm build
+  117  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  118  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  119  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  120  npm build
+  121  npm start
+  122  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  123  babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline -watch
+  124  history
+  125      npm install webpack-cli --save-dev
+  126  module.exports = {
+  127        module: {
+  128          rules: [
+  129            {             test: /\.jsx$/,;             exclude: /node_modules/,;             use: {;               loader: 'babel-loader';             }
+  130            }
+  131          ]
+  132        }
+  133      };
+  134  npm run react-dev
+  135  npm run react-dev
+  136  npm run react-dev
+  137  npm run react-dev
+  138  npm run react-dev
+  139  npm run react-dev
+  140  npm run react-dev
+  141  npm run react-dev
+  142  npm run react-dev
+  143  npm run react-dev
+  144  npm run react-dev
+  145  npm run react-dev
+  146  npm run react-dev
+  147  npm run react-dev
+  148  npm run react-dev
+  149  git add .
+  150  git commit -m "Implement playermoves"
+  151  git status
+  152  git diff
+  153  git add .
+  154  git add --all
+  155  git commit -m "Implement playermoves"
+  156  git push 
+  157  git add --all
+  158  git commit -m "Implement playermoves"
+  159  git push
+  160  ls
+  161  cd ../
+  162  ls
+  163  git status
+  164  cd ../
+  165  ls
+  166  cd hrsf117-movie-list/
+  167  git add .
+  168  git commit -m "Implement movie-list"
+  169  git push 
+  170  cd ../
+  171  ls
+  172  cd hrsf117-mini-apps-1/
+  173  history > history.txt
