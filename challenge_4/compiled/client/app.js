@@ -1,0 +1,3 @@
+// what is the correct file structure? How do you use the existing file structure 
+// Serve up an HTML.
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9hcHAuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0EiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gd2hhdCBpcyB0aGUgY29ycmVjdCBmaWxlIHN0cnVjdHVyZT8gSG93IGRvIHlvdSB1c2UgdGhlIGV4aXN0aW5nIGZpbGUgc3RydWN0dXJlIFxuLy8gU2VydmUgdXAgYW4gSFRNTC4gXG5cbiJdfQ==
