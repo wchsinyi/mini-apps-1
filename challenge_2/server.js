@@ -27,39 +27,39 @@ app.use(bodyParser.json())
 // var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
-function flatten(arr){
+function flatten(arr) {
     var newarr = [];
-    for (let i = 0; i< arr.length; i++) {
-        if (i===0){debugger;}
+    for (let i = 0; i < arr.length; i++) {
+        if (i === 0) { debugger; }
         newarr = attachAllButChildren(newarr, arr[i])
-        if (arr[i].children.length!==0){
+        if (arr[i].children.length !== 0) {
             newarr = newarr.concat(flatten(arr[i].children));
         }
     }
     return newarr
 }
 
-function attachAllButChildren(newarr, toAdd){
+function attachAllButChildren(newarr, toAdd) {
     var obj = {};
     for (let k in toAdd) {
-        if (k!=='children'){
+        if (k !== 'children') {
             obj[k] = toAdd[k]
         }
     }
     return newarr.concat([obj]);
 }
-function csvConvert(data) {  
+function csvConvert(data) {
     var result, ctr, keys, columnD, lineD;
     columnD = ',';
-    lineD =   '\n';
-    keys = Object.keys(data[0]); 
+    lineD = '\n';
+    keys = Object.keys(data[0]);
 
     result = '';
     result += keys.join(columnD);
     result += lineD;
     data.forEach(item => {
         ctr = 0;
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
             if (ctr > 0) result += columnD;
             result += item[key];
             ctr++;
@@ -71,19 +71,19 @@ function csvConvert(data) {
 
 app.post('/formSubmit', (req, res) => {
     const input = JSON.parse(req.body.JSONtext);
-    var inputArr = attachAllButChildren([],input ).concat(flatten(input.children));
+    var inputArr = attachAllButChildren([], input).concat(flatten(input.children));
     var csvStr = csvConvert(inputArr);
     res.setHeader('Content-disposition', 'attachment; filename=parse.csv');
     res.set('Content-Type', 'text/csv');
     res.status(200).send(csvStr);
-    }
+}
 );
 
 app.post('/submit-form', (req, res) => {
     const username = req.body.username;
     console.log(username);
     res.end()
-  })
+})
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
