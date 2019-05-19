@@ -39,7 +39,7 @@ class Form extends React.Component {
   submitHandler(e){
     e.preventDefault();
     console.log('this.state.inputs',this.state.inputs);
-    post(this.state.inputs[this.state.step]);
+    post(this.state.inputs[this.state.step], this.state.step );
     this.pagePlus(e);
   }
 
